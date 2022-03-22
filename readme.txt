@@ -1,3 +1,7 @@
+Le nom de la base : site
+
+//////////////////////
+
 Dans un premier temps, j'ai créé la base des données du site sur PhpMyAdmin ('root', 'root').
 J'ai procédé à la création des tables : 
     - 'membre' qui correspond aux inscrits du site
