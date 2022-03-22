@@ -20,13 +20,6 @@ Ecriture des fichiers en inclusion (ceux qui ne sont pas directement des pages w
 
 init.inc.php => connexion à la base de données.
 
-BUG A CORRIGER !
-
-La boutique ne s'affiche pas comme il le faudrait. Vérifier le CSS, les liens etc...
-
-Debug demandé dans la page panier 
-
-Bug au paiement du panier ! Vérifier que "ID_produit" soit bien écrit comme il faut 
 
 
 

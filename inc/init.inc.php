@@ -15,10 +15,10 @@ $mysqli->set_charset("utf8");
 //même s'il navigue de page en page.
 session_start();
  
-//--------- CHEMIN (Au lieu d'écrire "site_procedurale", on écrit RACINE_SITE. Cette initialisation nous permettra
+//CHEMIN => (Au lieu d'écrire "site_vetement", on écrit RACINE_SITE. Cette initialisation nous permettra
 // en cas de changement de chemin, de ne faire qu'une seule modification ici même. RACINE_SITE prendra automatiquement
 // sa valeur)
-define("RACINE_SITE","/site_procedurale/");
+define("RACINE_SITE","/site_vetement/");
  
 //$contenu = ''; est une variable initialisée à vide pour éviter d'avoir des erreurs undefined
 //si jamais nous tentons de l'afficher.
@@ -26,5 +26,5 @@ define("RACINE_SITE","/site_procedurale/");
 //cela nous permettra de faire 1 affichage global de tous nos éventuels messages à un endroit précis 
 $contenu = '';
  
-//--------- AUTRES INCLUSIONS
+//AUTRES INCLUSIONS
 require_once("fonction.inc.php");
