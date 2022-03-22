@@ -1,5 +1,11 @@
 Le nom de la base : site
 
+J'ai utilisé uWamp, le mot de passe est "root" et le pseudo "root". 
+
+Pour modifier le mot de passe, se rendre dans le dossier INC et cliquez sur le fichier init.inc.php.
+
+A l'ouverture du dossier dans le localhost, cliquez sur le bouton inscription.php.
+
 //////////////////////
 
 Dans un premier temps, j'ai créé la base des données du site sur PhpMyAdmin ('root', 'root').
