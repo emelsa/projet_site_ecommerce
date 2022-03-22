@@ -76,8 +76,8 @@ if(isset($_GET['action']) && $_GET['action'] == "affichage")
                 $contenu .= '<td>' . $information . '</td>';
             }
         }
-        $contenu .= '<td><a href="?action=modification&ID_produit=' . $ligne['ID_produit'] .'"><img src="../inc/img/edit.png"></a></td>';
-        $contenu .= '<td><a href="?action=suppression&ID_produit=' . $ligne['ID_produit'] .'" OnClick="return(confirm(\'En êtes vous certain ?\'));"><img src="../inc/img/delete.png"></a></td>';
+        $contenu .= '<td><button><a href="?action=modification&ID_produit=' . $ligne['ID_produit'] .'">Modifier</a></button></td>';
+        $contenu .= '<td><button><a href="?action=suppression&ID_produit=' . $ligne['ID_produit'] .'" OnClick="return(confirm(\'En êtes vous certain ?\'));">Supprimer</a></button></td>';
         $contenu .= '</tr>';
     }
     $contenu .= '</table><br><hr><br>';

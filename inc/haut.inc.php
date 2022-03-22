@@ -16,8 +16,8 @@
 
                         if(internauteEstConnecteEtAdmin()){
 
-                            echo '<a href="' . RACINE_SITE . 'admin/gestion_membre.php">Gestion des membres</a>';
-                            echo '<a href="' . RACINE_SITE . 'admin/gestion_commande.php">Gestion des commandes</a>';
+                            echo '<a href="#">Gestion des membres</a>';
+                            echo '<a href="#">Gestion des commandes</a>';
                             echo '<a href="' . RACINE_SITE . 'admin/gestion_boutique.php">Gestion de la boutique</a>';
                         }
 

@@ -18,7 +18,7 @@ session_start();
 //CHEMIN => (Au lieu d'écrire "site_vetement", on écrit RACINE_SITE. Cette initialisation nous permettra
 // en cas de changement de chemin, de ne faire qu'une seule modification ici même. RACINE_SITE prendra automatiquement
 // sa valeur)
-define("RACINE_SITE","/site_vetement/");
+define("RACINE_SITE","/projet_site_ecommerce/");
  
 //$contenu = ''; est une variable initialisée à vide pour éviter d'avoir des erreurs undefined
 //si jamais nous tentons de l'afficher.

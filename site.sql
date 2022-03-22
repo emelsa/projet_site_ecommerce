@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost
--- Généré le :  Mar 22 Mars 2022 à 10:25
+-- Généré le :  Mar 22 Mars 2022 à 11:09
 -- Version du serveur :  5.7.11
 -- Version de PHP :  5.6.18
 
@@ -101,8 +101,8 @@ CREATE TABLE `produit` (
 --
 
 INSERT INTO `produit` (`ID_produit`, `reference`, `categorie`, `titre`, `description`, `couleur`, `taille`, `public`, `photo`, `prix`, `stock`) VALUES
-(5, 'Tee-shirt', 'teeshirt', 'teeshirt bleu', 'Beau tee-shirt bleu manche courte', 'bleu', 'S', 'm', '/site_procedurale/photo/Tee-shirt_tee-shirt.jpg', 12, 10),
-(8, 'Debardeur rouge', 'debardeur', 'D&eacute;bardeur rouge', 'Jolie d&eacute;bardeur rouge parfait pour l\'&eacute;t&eacute; !', 'rouge', 'S', 'f', '/site_vetement/photo/Debardeur rouge_debardeur.jpg', 19, 19);
+(18, 'tee-shirt rouge', 'Tee-shirt', 'Tee-shirt bleu', 'Joli tee shirt bleu', 'bleu', 'S', 'm', '/projet_site_ecommerce/photo/tee-shirt rouge_tee-shirtbleu.jpg', 5, 10),
+(19, 'jogging-gris', 'Survetement', 'Jogging gris', 'Beau jogging gris', 'gris', 'S', 'm', '/projet_site_ecommerce/photo/jogging-gris_jogging-gris.jpg', 6, 8);
 
 --
 -- Index pour les tables exportées
@@ -157,7 +157,7 @@ ALTER TABLE `membre`
 -- AUTO_INCREMENT pour la table `produit`
 --
 ALTER TABLE `produit`
-  MODIFY `ID_produit` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `ID_produit` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
