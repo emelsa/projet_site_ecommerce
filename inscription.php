@@ -23,7 +23,7 @@ if($_POST){
             VALUES ('$_POST[pseudo]', '$_POST[mdp]','$_POST[nom]', '$_POST[prenom]', '$_POST[email]', '$_POST[civilite]',
             '$_POST[ville]', '$_POST[code_postal]', '$_POST[adresse]')");
 
-            $contenu .= "<div class='validation'>Vous êtes inscrit  notre site web. <a href=\"connexion\"><u>Cliquez ici pour vous connecter</u></a></div>";
+            $contenu .= "<div class='validation'>Vous êtes inscrit notre site web. <a href=\"connexion\"><u>Cliquez ici pour vous connecter</u></a></div>";
         }
     }
 }
