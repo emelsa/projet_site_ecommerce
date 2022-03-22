@@ -9,9 +9,9 @@ a{
 
 .conteneur{ 
     margin: 0 auto; 
-    /* max-: 1170px;  */
 }
-/**************************************************** HAUT ************************************************/
+
+/* HAUT */
 header { 
     background: #000000; 
     padding: 5px; 
@@ -37,19 +37,22 @@ header  a{
 header  nav  a:hover{ 
     background: #04baf6; 
 }
-/**************************************************** MILIEU ************************************************/
+
+/* MILIEU */
 section{ 
     padding: 30px; 
     min-height: 800px; 
 }
-/**************************************************** BAS ************************************************/
+
+/* BAS */
 footer{ 
     background: #000;
     color: white;
     text-align: center; 
     padding: 7px 0;
 }
-/**************************************************** GENERAL ************************************************/
+
+/* GENERAL */
 .erreur{ 
     background: #ff0000; 
     padding: 5px;
@@ -68,7 +71,7 @@ a{ text-decoration: none; color: #000; }
 
 
 
-/**************************************************** BOUTIQUE ************************************************/   
+/* BOUTIQUE */   
 .boutique-gauche{ 
     float: left;  
     background: #f2f2f2;
@@ -77,27 +80,33 @@ a{ text-decoration: none; color: #000; }
     padding-top: 10px;
     text-align: center;
 }
-.boutique-gauche  ul{
+
+.boutique-gauche ul{
     list-style: none;
     padding: 0;
-    }
-.boutique-gauche  ul  li  a{ 
+}
+
+.boutique-gauche ul li a{ 
     display: block; 
     padding: 10px;
 }
-.boutique-gauche  ul  li  a:hover{ 
+
+.boutique-gauche ul li a:hover{ 
     background: #04baf6; 
     color: #fff; 
 }
+
 .boutique-droite{
     float: left;
 }
+
 .boutique-produit{ 
     float: left;
     text-align: center; 
     padding: 5%; 
     border-bottom: 1px solid #c0c0c0;
 }
+
 .boutique-produit:hover{ 
     background: #c0c0c0; 
 }

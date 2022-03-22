@@ -1,7 +1,8 @@
 <?php
 require_once("inc/init.inc.php");
-//--------------------------------- TRAITEMENTS PHP ---------------------------------//
-//--- AFFICHAGE DES CATEGORIES ---//
+
+//TRAITEMENTS PHP
+//Affichage des catégories
 $categories_des_produits = executeRequete("SELECT DISTINCT categorie FROM produit");
 $contenu .= '<div class="boutique-gauche">';
 $contenu .= "<ul>";
@@ -27,7 +28,10 @@ if(isset($_GET['categorie']))
     }
 }
 $contenu .= '</div>';
-//--------------------------------- AFFICHAGE HTML ---------------------------------//
+
+//Affichage du HTML
 require_once("inc/haut.inc.php");
 echo $contenu;
-require_once("inc/bas.inc.php"); ?>
+require_once("inc/bas.inc.php");
+
+?>

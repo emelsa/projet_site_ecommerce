@@ -1,5 +1,7 @@
 <?php 
 
+
+
 function executeRequete($req)
 {
     global $mysqli;
@@ -63,7 +65,9 @@ function creationDuPanier()
       $_SESSION['panier']['prix'] = array();
    }
 }
+
 //------------------------------------
+
 function ajouterProduitDansPanier($titre, $id_produit, $quantite, $prix)
 {
     creationDuPanier(); 
@@ -80,6 +84,7 @@ function ajouterProduitDansPanier($titre, $id_produit, $quantite, $prix)
         $_SESSION['panier']['prix'][] = $prix;
     }
 }
+
 //------------------------------------
 function montantTotal(){
     $total=0;
@@ -89,6 +94,7 @@ function montantTotal(){
     }
     return round($total,2); 
  }
+ 
  //------------------------------------
  function retirerProduitDuPanier($id_produit_a_supprimer)
  {

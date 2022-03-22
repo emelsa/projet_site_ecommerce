@@ -1,9 +1,9 @@
-<?php require_once("inc/init.inc.php");
+<?php 
 
-        // Traitements PHP
+require_once("inc/init.inc.php");
 
+// Traitements PHP
 if(isset($_GET['action']) && $_GET['action'] == "deconnexion"){
-    
     session_destroy();
 } 
 
